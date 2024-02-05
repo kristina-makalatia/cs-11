@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 11</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <section>
+      <div class="block">
+        <picture>
+          <source media="(min-width:1024px)" srcset="images/img4.png" />
+          <source media="(min-width:744px)" srcset="images/img3.png" />
+          <source media="(min-width:375px)" srcset="images/img2.png" />
+          <img src="images/img.png" alt="" style="width: 100%" />
+        </picture>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="text-block">
+          <h3>Lorem Ipsum</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+        </div>
+
+        <div class="container-blocks">
+          <div class="box">
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+              amet, elementum.
+            </p>
+          </div>
+          <div class="box">
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+              amet, elementum.
+            </p>
+          </div>
+          <div class="box">
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+              amet, elementum.
+            </p>
+          </div>
+          <div class="box">
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+              amet, elementum.
+            </p>
+          </div>
+          <div class="box">
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+              amet, elementum.
+            </p>
+          </div>
+          <div class="box">
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus
+              amet, elementum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <form class="form-wraper" action="">
+        <div class="form-element">
+          <label for="fname">First Name</label>
+          <input
+            class="input-element"
+            type="text"
+            id="fname"
+            name="userfirstname"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <div class="form-element">
+          <label for="mypassw">Password</label>
+          <input
+            class="input-element"
+            type="password"
+            id="mypassw"
+            name="userpassword"
+            placeholder="Enter Your Password"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <select name="plan" id="country">
+            <option value="none" selected disabled hidden>
+              Select Country
+            </option>
+            <option value="Georgia">Georgia</option>
+            <option value="Germany">Germany</option>
+            <option value="united states">Usa</option>
+          </select>
+        </div>
+
+        <div class="form-element">
+          <label for="review">Your Review</label>
+          <textarea
+            name="userreview"
+            id="review"
+            placeholder="Enter Your Review"
+            class="textarea-element"
+          ></textarea>
+        </div>
+
+        <button class="btn-submit" type="submit">გაგზავნა</button>
+      </form>
+    </section>
+  </body>
+</html>
